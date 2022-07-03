@@ -1,5 +1,5 @@
 class PointWOLF(object):
-    def __init__(self, w_sigma):
+    def __init__(self, w_sigma=0.5):
         self.num_anchor = 4
         self.sample_type = 'fps'  # 'random'
         self.sigma = w_sigma
