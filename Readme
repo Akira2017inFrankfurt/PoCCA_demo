@@ -9,7 +9,7 @@
 - open3d-python = 0.7.00
 
 运行提示：
-- 全部流程都在codesa文件中的01_get_point_cloud.ipynb
+- 全部流程都在codes文件中的01_get_point_cloud.ipynb
 - utils.py主要包含open3d的一些函数
 - 只有knn方法的输入需要tensor，其他均为numpy
 - knn的输入输出处理参考01_get_point_cloud.ipynb，56-59 + 98 运行块儿
