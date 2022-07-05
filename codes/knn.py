@@ -2,8 +2,7 @@ import random
 import torch
 import numpy as np
 
-
-import torch
+device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
 def index_points(points, idx):
     """
