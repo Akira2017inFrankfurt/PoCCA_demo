@@ -1,5 +1,8 @@
+import numpy as np
+
+
 class PointWOLF(object):
-    def __init__(self, w_sigma=0.5):
+    def __init__(self, w_sigma):
         self.num_anchor = 4
         self.sample_type = 'fps'  # 'random'
         self.sigma = w_sigma
@@ -32,7 +35,7 @@ class PointWOLF(object):
         pos_new = self.kernel_regression(pos, pos_anchor, pos_transformed)
         pos_new = self.normalize(pos_new)
 
-        return pos.astype('float32'), pos_new.astype('float32')
+        return pos_new.astype('float32')
 
     def kernel_regression(self, pos, pos_anchor, pos_transformed):
         M, N, _ = pos_transformed.shape
