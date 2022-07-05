@@ -1,1 +1,2 @@
-包含数据，demo以及创建demo的代码
+包含一个用到的点云数据(from ModelNet40 as txt file)，
+demo以及生成demo的代码
