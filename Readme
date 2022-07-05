@@ -1,2 +1,12 @@
-包含一个用到的点云数据(from ModelNet40 as txt file)，
-demo以及生成demo的代码
+项目内容：
+- 包含一个用到的点云数据(from ModelNet40 as txt file)，demo以及生成demo的代码
+
+配置环境：
+- linux = ubuntu 18.04
+- python = 3.7
+- pytorch = 1.10.2
+- numpy = 1.21.5
+- open3d-python = 0.7.00
+
+运行提示：
+- 参考code文件中的01_get_point_cloud.ipynb
