@@ -1,5 +1,5 @@
 import numpy as np
-from subsample import fps
+from subsample_fps import fps
 
 # 3 slices per axis， 40% points of one point cloud
 def get_index(index_slice, ration_per_slice, overlap_ration, num_all_points):
