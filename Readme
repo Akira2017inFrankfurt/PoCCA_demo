@@ -9,4 +9,5 @@
 - open3d-python = 0.7.00
 
 运行提示：
-- 参考code文件中的01_get_point_cloud.ipynb
+- 参考codesa文件中的01_get_point_cloud.ipynb
+- utils.py主要包含open3d的一些函数
