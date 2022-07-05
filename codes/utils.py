@@ -16,7 +16,7 @@ def visualize_samples(d_sample):
     source.paint_uniform_color(color)
     o3d.visualization.draw_geometries([source])
 
-    
+# 保存点云数据函数    
 def save_txt(d_sample):
     """
     d_sample: sampled point set
